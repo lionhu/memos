@@ -1,15 +1,237 @@
 {
   "products": [
     {
-      "name": "MONO Sharp needl",
+      "tags": [
+        {
+          "id": "",
+          "name": ""
+        },
+        {
+          "id": "",
+          "name": ""
+        }
+      ],
+      "title": "MONO Sharp needle",
+      "images": {
+        "sub": "",
+        "main": ""
+      },
       "package": "10pcsx2bags/pack",
-      "description": "",
-      "effect": "",
-      "images": {
-        "main": "",
-        "sub": ""
-      },
       "subtitle": "",
+      "accordion": [
+        {
+          "icon": "i-heroicons-information-circle",
+          "label": "Getting Started",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.",
+          "defaultOpen": true
+        },
+        {
+          "icon": "i-heroicons-eye-dropper",
+          "label": "Effect",
+          "content": ""
+        },
+        {
+          "icon": "i-heroicons-square-3-stack-3d",
+          "label": "Package",
+          "content": "10pcsx2bags/pack"
+        },
+        {
+          "icon": "i-heroicons-wrench-screwdriver",
+          "slot": "Specifications",
+          "label": "Specifications"
+        }
+      ],
+      "description": "",
+      "specification_accordion": {
+        "data": [
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "4/0",
+                  "needle": "50",
+                  "thread": "70"
+                },
+                {
+                  "id": "1",
+                  "usp": "4/0",
+                  "needle": "70",
+                  "thread": "90"
+                },
+                {
+                  "id": "1",
+                  "usp": "4/0",
+                  "needle": "90",
+                  "thread": "120"
+                }
+              ],
+              "category": "gauge_25G"
+            },
+            "icon": "i-heroicons-information-circle",
+            "label": "gauge_25G",
+            "defaultOpen": false
+          },
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "38",
+                  "thread": "50"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "50",
+                  "thread": "70"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "60",
+                  "thread": "80"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "70",
+                  "thread": "90"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "90",
+                  "thread": "120"
+                }
+              ],
+              "category": "gauge_26G"
+            },
+            "icon": "i-heroicons-arrow-down-tray",
+            "label": "gauge_26G",
+            "defaultOpen": false
+          },
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "38",
+                  "thread": "50"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "50",
+                  "thread": "70"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "60",
+                  "thread": "80"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "70",
+                  "thread": "90"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "90",
+                  "thread": "120"
+                }
+              ],
+              "category": "gauge_27G"
+            },
+            "icon": "i-heroicons-arrow-down-tray",
+            "label": "gauge_27G",
+            "defaultOpen": false
+          },
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "6/0",
+                  "needle": "25",
+                  "thread": "30"
+                },
+                {
+                  "id": "1",
+                  "usp": "6/0",
+                  "needle": "38",
+                  "thread": "50"
+                },
+                {
+                  "id": "1",
+                  "usp": "6/0",
+                  "needle": "50",
+                  "thread": "70"
+                },
+                {
+                  "id": "1",
+                  "usp": "6/0",
+                  "needle": "60",
+                  "thread": "80"
+                }
+              ],
+              "category": "gauge_29G"
+            },
+            "icon": "i-heroicons-arrow-down-tray",
+            "label": "gauge_29G",
+            "defaultOpen": false
+          },
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "7/0",
+                  "needle": "13",
+                  "thread": "20"
+                },
+                {
+                  "id": "1",
+                  "usp": "6/0",
+                  "needle": "25",
+                  "thread": "30"
+                },
+                {
+                  "id": "1",
+                  "usp": "6/0",
+                  "needle": "38",
+                  "thread": "50"
+                }
+              ],
+              "category": "gauge_30G"
+            },
+            "icon": "i-heroicons-arrow-down-tray",
+            "label": "gauge_30G",
+            "defaultOpen": false
+          }
+        ],
+        "columns": [
+          {
+            "key": "needle",
+            "label": "Nength"
+          },
+          {
+            "key": "thread",
+            "label": "Thread"
+          },
+          {
+            "key": "usp",
+            "label": "USP"
+          }
+        ]
+      }
+    },
+    {
       "tags": [
         {
           "id": "",
@@ -20,168 +242,227 @@
           "name": ""
         }
       ],
-      "title": "",
-      "variations": {
-        "type": "Accordion",
-        "data": [
-          {
-            "category": "gauge 25G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "50",
-                "thread": "70",
-                "usp": "4/0"
-              },
-              {
-                "id": "1",
-                "needle": "70",
-                "thread": "90",
-                "usp": "4/0"
-              },
-              {
-                "id": "1",
-                "needle": "90",
-                "thread": "120",
-                "usp": "4/0"
-              }
-            ]
-          },
-          {
-            "category": "gauge 26G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "38",
-                "thread": "50",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "50",
-                "thread": "70",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "60",
-                "thread": "80",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "70",
-                "thread": "90",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "90",
-                "thread": "120",
-                "usp": "5/0"
-              }
-            ]
-          },
-          {
-            "category": "gauge 27G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "38",
-                "thread": "50",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "50",
-                "thread": "70",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "60",
-                "thread": "80",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "70",
-                "thread": "90",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "90",
-                "thread": "120",
-                "usp": "5/0"
-              }
-            ]
-          },
-          {
-            "category": "29G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "25",
-                "thread": "30",
-                "usp": "6/0"
-              },
-              {
-                "id": "1",
-                "needle": "38",
-                "thread": "50",
-                "usp": "6/0"
-              },
-              {
-                "id": "1",
-                "needle": "50",
-                "thread": "70",
-                "usp": "6/0"
-              },
-              {
-                "id": "1",
-                "needle": "60",
-                "thread": "80",
-                "usp": "6/0"
-              }
-            ]
-          },
-          {
-            "category": "30G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "13",
-                "thread": "20",
-                "usp": "7/0"
-              },
-              {
-                "id": "1",
-                "needle": "25",
-                "thread": "30",
-                "usp": "6/0"
-              },
-              {
-                "id": "1",
-                "needle": "38",
-                "thread": "50",
-                "usp": "6/0"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "MONO Screw Sharp needle",
+      "title": "MONO Screw Sharp needle",
+      "images": {
+        "sub": "",
+        "main": ""
+      },
       "package": "10pcsx2bags/pack",
-      "description": "",
-      "effect": "Face & Body Tightening，Removing wrinkle",
-      "images": {
-        "main": "",
-        "sub": ""
-      },
       "subtitle": "",
+      "accordion": [
+        {
+          "icon": "i-heroicons-information-circle",
+          "label": "Getting Started",
+          "content": "Lorem ipsum ",
+          "defaultOpen": true
+        },
+        {
+          "icon": "i-heroicons-eye-dropper",
+          "label": "Effect",
+          "content": "Face & Body Tightening，Removing wrinkle"
+        },
+        {
+          "icon": "i-heroicons-square-3-stack-3d",
+          "label": "Package",
+          "content": "10pcsx2bags/pack"
+        },
+        {
+          "icon": "i-heroicons-wrench-screwdriver",
+          "slot": "Specifications",
+          "label": "Specifications"
+        }
+      ],
+      "description": "",
+      "specification_accordion": {
+        "data": [
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "4/0",
+                  "needle": "50",
+                  "thread": "70"
+                },
+                {
+                  "id": "1",
+                  "usp": "4/0",
+                  "needle": "70",
+                  "thread": "90"
+                },
+                {
+                  "id": "1",
+                  "usp": "4/0",
+                  "needle": "90",
+                  "thread": "120"
+                }
+              ],
+              "category": "gauge_25G"
+            },
+            "icon": "i-heroicons-information-circle",
+            "label": "gauge_25G",
+            "defaultOpen": false
+          },
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "38",
+                  "thread": "50"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "50",
+                  "thread": "70"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "60",
+                  "thread": "80"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "70",
+                  "thread": "90"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "90",
+                  "thread": "120"
+                }
+              ],
+              "category": "gauge_26G"
+            },
+            "icon": "i-heroicons-arrow-down-tray",
+            "label": "gauge_26G",
+            "defaultOpen": false
+          },
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "38",
+                  "thread": "50"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "50",
+                  "thread": "70"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "60",
+                  "thread": "80"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "70",
+                  "thread": "90"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "90",
+                  "thread": "120"
+                }
+              ],
+              "category": "gauge_27G"
+            },
+            "icon": "i-heroicons-arrow-down-tray",
+            "label": "gauge_27G",
+            "defaultOpen": false
+          },
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "6/0",
+                  "needle": "25",
+                  "thread": "30"
+                },
+                {
+                  "id": "1",
+                  "usp": "6/0",
+                  "needle": "38",
+                  "thread": "50"
+                },
+                {
+                  "id": "1",
+                  "usp": "6/0",
+                  "needle": "50",
+                  "thread": "70"
+                },
+                {
+                  "id": "1",
+                  "usp": "6/0",
+                  "needle": "60",
+                  "thread": "80"
+                }
+              ],
+              "category": "gauge_29G"
+            },
+            "icon": "i-heroicons-arrow-down-tray",
+            "label": "gauge_29G",
+            "defaultOpen": false
+          },
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "7/0",
+                  "needle": "13",
+                  "thread": "20"
+                },
+                {
+                  "id": "1",
+                  "usp": "6/0",
+                  "needle": "25",
+                  "thread": "30"
+                },
+                {
+                  "id": "1",
+                  "usp": "6/0",
+                  "needle": "38",
+                  "thread": "50"
+                }
+              ],
+              "category": "gauge_30G"
+            },
+            "icon": "i-heroicons-arrow-down-tray",
+            "label": "gauge_30G",
+            "defaultOpen": false
+          }
+        ],
+        "columns": [
+          {
+            "key": "needle",
+            "label": "Nength"
+          },
+          {
+            "key": "thread",
+            "label": "Thread"
+          },
+          {
+            "key": "usp",
+            "label": "USP"
+          }
+        ]
+      }
+    },
+    {
       "tags": [
         {
           "id": "",
@@ -192,168 +473,147 @@
           "name": ""
         }
       ],
-      "title": "",
-      "variations": {
-        "type": "Accordion",
-        "data": [
-          {
-            "category": "gauge 25G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "50",
-                "thread": "70",
-                "usp": "4/0"
-              },
-              {
-                "id": "1",
-                "needle": "70",
-                "thread": "90",
-                "usp": "4/0"
-              },
-              {
-                "id": "1",
-                "needle": "90",
-                "thread": "120",
-                "usp": "4/0"
-              }
-            ]
-          },
-          {
-            "category": "gauge 26G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "38",
-                "thread": "50",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "50",
-                "thread": "70",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "60",
-                "thread": "80",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "70",
-                "thread": "90",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "90",
-                "thread": "120",
-                "usp": "5/0"
-              }
-            ]
-          },
-          {
-            "category": "gauge 27G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "38",
-                "thread": "50",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "50",
-                "thread": "70",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "60",
-                "thread": "80",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "70",
-                "thread": "90",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "90",
-                "thread": "120",
-                "usp": "5/0"
-              }
-            ]
-          },
-          {
-            "category": "29G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "25",
-                "thread": "30",
-                "usp": "6/0"
-              },
-              {
-                "id": "1",
-                "needle": "38",
-                "thread": "50",
-                "usp": "6/0"
-              },
-              {
-                "id": "1",
-                "needle": "50",
-                "thread": "70",
-                "usp": "6/0"
-              },
-              {
-                "id": "1",
-                "needle": "60",
-                "thread": "80",
-                "usp": "6/0"
-              }
-            ]
-          },
-          {
-            "category": "30G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "13",
-                "thread": "20",
-                "usp": "7/0"
-              },
-              {
-                "id": "1",
-                "needle": "25",
-                "thread": "30",
-                "usp": "6/0"
-              },
-              {
-                "id": "1",
-                "needle": "38",
-                "thread": "50",
-                "usp": "6/0"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "Tornado Screw Sharp needle",
+      "title": "Tornado Screw Sharp needle",
+      "images": {
+        "sub": "",
+        "main": ""
+      },
       "package": "10pcsx2bags/pack",
-      "description": "",
-      "effect": "Face & Body Tightening，Removing wrinkle",
-      "images": {
-        "main": "",
-        "sub": ""
-      },
       "subtitle": "",
+      "accordion": [
+        {
+          "icon": "i-heroicons-information-circle",
+          "label": "Getting Started",
+          "content": "Lorem ipsum ",
+          "defaultOpen": true
+        },
+        {
+          "icon": "i-heroicons-eye-dropper",
+          "label": "Effect",
+          "content": "Face & Body Tightening，Removing wrinkle"
+        },
+        {
+          "icon": "i-heroicons-square-3-stack-3d",
+          "label": "Package",
+          "content": "10pcsx2bags/pack"
+        },
+        {
+          "icon": "i-heroicons-wrench-screwdriver",
+          "slot": "Specifications",
+          "label": "Specifications"
+        }
+      ],
+      "description": "",
+      "specification_accordion": {
+        "data": [
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "7/0*2",
+                  "needle": "50",
+                  "thread": "70"
+                },
+                {
+                  "id": "1",
+                  "usp": "7/0*2",
+                  "needle": "60",
+                  "thread": "80"
+                },
+                {
+                  "id": "1",
+                  "usp": "7/0*2",
+                  "needle": "90",
+                  "thread": "120"
+                }
+              ],
+              "category": "gauge_25G"
+            },
+            "icon": "i-heroicons-information-circle",
+            "label": "gauge_25G",
+            "defaultOpen": false
+          },
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "7/0*2",
+                  "needle": "38",
+                  "thread": "100"
+                },
+                {
+                  "id": "1",
+                  "usp": "7/0*2",
+                  "needle": "60",
+                  "thread": "160"
+                },
+                {
+                  "id": "1",
+                  "usp": "7/0*2",
+                  "needle": "90",
+                  "thread": "180"
+                }
+              ],
+              "category": "gauge_26G"
+            },
+            "icon": "i-heroicons-arrow-down-tray",
+            "label": "gauge_26G",
+            "defaultOpen": false
+          },
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "7/0*2",
+                  "needle": "38",
+                  "thread": "100"
+                },
+                {
+                  "id": "1",
+                  "usp": "7/0*2",
+                  "needle": "50",
+                  "thread": "140"
+                },
+                {
+                  "id": "1",
+                  "usp": "7/0*2",
+                  "needle": "60",
+                  "thread": "160"
+                },
+                {
+                  "id": "1",
+                  "usp": "7/0*2",
+                  "needle": "90",
+                  "thread": "160"
+                }
+              ],
+              "category": "gauge_27G"
+            },
+            "icon": "i-heroicons-arrow-down-tray",
+            "label": "gauge_27G",
+            "defaultOpen": false
+          }
+        ],
+        "columns": [
+          {
+            "key": "needle",
+            "label": "Nength"
+          },
+          {
+            "key": "thread",
+            "label": "Thread"
+          },
+          {
+            "key": "usp",
+            "label": "USP"
+          }
+        ]
+      }
+    },
+    {
       "tags": [
         {
           "id": "",
@@ -364,98 +624,215 @@
           "name": ""
         }
       ],
-      "title": "",
-      "variations": {
-        "type": "Accordion",
-        "data": [
-          {
-            "category": "gauge 25G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "50",
-                "thread": "70",
-                "usp": "7/0*2"
-              },
-              {
-                "id": "1",
-                "needle": "60",
-                "thread": "80",
-                "usp": "7/0*2"
-              },
-              {
-                "id": "1",
-                "needle": "90",
-                "thread": "120",
-                "usp": "7/0*2"
-              }
-            ]
-          },
-          {
-            "category": "gauge 26G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "38",
-                "thread": "100",
-                "usp": "7/0*2"
-              },
-              {
-                "id": "1",
-                "needle": "60",
-                "thread": "160",
-                "usp": "7/0*2"
-              },
-              {
-                "id": "1",
-                "needle": "90",
-                "thread": "180",
-                "usp": "7/0*2"
-              }
-            ]
-          },
-          {
-            "category": "gauge 27G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "38",
-                "thread": "100",
-                "usp": "7/0*2"
-              },
-              {
-                "id": "1",
-                "needle": "50",
-                "thread": "140",
-                "usp": "7/0*2"
-              },
-              {
-                "id": "1",
-                "needle": "60",
-                "thread": "160",
-                "usp": "7/0*2"
-              },
-              {
-                "id": "1",
-                "needle": "90",
-                "thread": "160",
-                "usp": "7/0*2"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "Mono Advanced Screw Thread(Sharp Needle)",
+      "title": "Mono Advanced Screw Thread(Sharp Needle)",
+      "images": {
+        "sub": "",
+        "main": ""
+      },
       "package": "10pcsx2bags/pack",
-      "description": "",
-      "effect": "",
-      "images": {
-        "main": "",
-        "sub": ""
-      },
       "subtitle": "",
+      "accordion": [
+        {
+          "icon": "i-heroicons-information-circle",
+          "label": "Getting Started",
+          "content": "Lorem ipsum ",
+          "defaultOpen": true
+        },
+        {
+          "icon": "i-heroicons-eye-dropper",
+          "label": "Effect",
+          "content": "Face & Body Tightening，Removing wrinkle"
+        },
+        {
+          "icon": "i-heroicons-square-3-stack-3d",
+          "label": "Package",
+          "content": "10pcsx2bags/pack"
+        },
+        {
+          "icon": "i-heroicons-wrench-screwdriver",
+          "slot": "Specifications",
+          "label": "Specifications"
+        }
+      ],
+      "description": "",
+      "specification_accordion": {
+        "data": [
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "4/0",
+                  "needle": "50",
+                  "thread": "90"
+                },
+                {
+                  "id": "1",
+                  "usp": "4/0",
+                  "needle": "70",
+                  "thread": "120"
+                },
+                {
+                  "id": "1",
+                  "usp": "4/0",
+                  "needle": "90",
+                  "thread": "150"
+                }
+              ],
+              "category": "gauge_25G"
+            },
+            "icon": "i-heroicons-information-circle",
+            "label": "gauge_25G",
+            "defaultOpen": false
+          },
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "38",
+                  "thread": "60"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "50",
+                  "thread": "90"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "60",
+                  "thread": "120"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "70",
+                  "thread": "150"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "90",
+                  "thread": "190"
+                }
+              ],
+              "category": "gauge_26G"
+            },
+            "icon": "i-heroicons-arrow-down-tray",
+            "label": "gauge_26G",
+            "defaultOpen": false
+          },
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "38",
+                  "thread": "50"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "50",
+                  "thread": "90"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "60",
+                  "thread": "120"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0",
+                  "needle": "70",
+                  "thread": "150"
+                }
+              ],
+              "category": "gauge_27G"
+            },
+            "icon": "i-heroicons-arrow-down-tray",
+            "label": "gauge_27G",
+            "defaultOpen": false
+          },
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "6/0",
+                  "needle": "25",
+                  "thread": "30"
+                },
+                {
+                  "id": "1",
+                  "usp": "6/0",
+                  "needle": "38",
+                  "thread": "50"
+                },
+                {
+                  "id": "1",
+                  "usp": "6/0",
+                  "needle": "50",
+                  "thread": "70"
+                },
+                {
+                  "id": "1",
+                  "usp": "6/0",
+                  "needle": "60",
+                  "thread": "80"
+                }
+              ],
+              "category": "gauge_29G"
+            },
+            "icon": "i-heroicons-arrow-down-tray",
+            "label": "gauge_29G",
+            "defaultOpen": false
+          },
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "6/0",
+                  "needle": "25",
+                  "thread": "30"
+                },
+                {
+                  "id": "1",
+                  "usp": "6/0",
+                  "needle": "38",
+                  "thread": "50"
+                }
+              ],
+              "category": "gauge_30G"
+            },
+            "icon": "i-heroicons-arrow-down-tray",
+            "label": "gauge_30G",
+            "defaultOpen": false
+          }
+        ],
+        "columns": [
+          {
+            "key": "needle",
+            "label": "Nength"
+          },
+          {
+            "key": "thread",
+            "label": "Thread"
+          },
+          {
+            "key": "usp",
+            "label": "USP"
+          }
+        ]
+      }
+    },
+    {
       "tags": [
         {
           "id": "",
@@ -466,162 +843,85 @@
           "name": ""
         }
       ],
-      "title": "",
-      "variations": {
-        "type": "Accordion",
-        "data": [
-          {
-            "category": "gauge 25G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "50",
-                "thread": "90",
-                "usp": "4/0"
-              },
-              {
-                "id": "1",
-                "needle": "70",
-                "thread": "120",
-                "usp": "4/0"
-              },
-              {
-                "id": "1",
-                "needle": "90",
-                "thread": "150",
-                "usp": "4/0"
-              }
-            ]
-          },
-          {
-            "category": "gauge 26G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "38",
-                "thread": "60",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "50",
-                "thread": "90",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "60",
-                "thread": "120",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "70",
-                "thread": "150",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "90",
-                "thread": "190",
-                "usp": "5/0"
-              }
-            ]
-          },
-          {
-            "category": "gauge 27G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "38",
-                "thread": "50",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "50",
-                "thread": "90",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "60",
-                "thread": "120",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "70",
-                "thread": "150",
-                "usp": "5/0"
-              },
-              {
-                "id": "1",
-                "needle": "90",
-                "thread": "190",
-                "usp": "5/0"
-              }
-            ]
-          },
-          {
-            "category": "29G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "25",
-                "thread": "30",
-                "usp": "6/0"
-              },
-              {
-                "id": "1",
-                "needle": "38",
-                "thread": "50",
-                "usp": "6/0"
-              },
-              {
-                "id": "1",
-                "needle": "50",
-                "thread": "70",
-                "usp": "6/0"
-              },
-              {
-                "id": "1",
-                "needle": "60",
-                "thread": "80",
-                "usp": "6/0"
-              }
-            ]
-          },
-          {
-            "category": "30G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "25",
-                "thread": "30",
-                "usp": "6/0"
-              },
-              {
-                "id": "1",
-                "needle": "38",
-                "thread": "50",
-                "usp": "6/0"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "COG Type 2-1 L needle",
+      "title": "COG Type 2-1 L needle",
+      "images": {
+        "sub": "",
+        "main": ""
+      },
       "package": "10pcsx2bags/pack",
-      "description": "",
-      "effect": "Straighten the nose columella and nose brid",
-      "images": {
-        "main": "",
-        "sub": ""
-      },
       "subtitle": "",
+      "accordion": [
+        {
+          "icon": "i-heroicons-information-circle",
+          "label": "Getting Started",
+          "content": "Lorem ipsum ",
+          "defaultOpen": true
+        },
+        {
+          "icon": "i-heroicons-eye-dropper",
+          "label": "Effect",
+          "content": "Straighten the nose columella and nose brid"
+        },
+        {
+          "icon": "i-heroicons-square-3-stack-3d",
+          "label": "Package",
+          "content": "10pcsx2bags/pack"
+        },
+        {
+          "icon": "i-heroicons-wrench-screwdriver",
+          "slot": "Specifications",
+          "label": "Specifications"
+        }
+      ],
+      "description": "",
+      "specification_accordion": {
+        "data": [
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "2",
+                  "needle": "38",
+                  "thread": "50"
+                },
+                {
+                  "id": "1",
+                  "usp": "2",
+                  "needle": "50",
+                  "thread": "70"
+                },
+                {
+                  "id": "1",
+                  "usp": "2",
+                  "needle": "60",
+                  "thread": "80"
+                }
+              ],
+              "category": "gauge_19G"
+            },
+            "icon": "i-heroicons-information-circle",
+            "label": "gauge_19G",
+            "defaultOpen": false
+          }
+        ],
+        "columns": [
+          {
+            "key": "needle",
+            "label": "Nength"
+          },
+          {
+            "key": "thread",
+            "label": "Thread"
+          },
+          {
+            "key": "usp",
+            "label": "USP"
+          }
+        ]
+      }
+    },
+    {
       "tags": [
         {
           "id": "",
@@ -632,46 +932,123 @@
           "name": ""
         }
       ],
-      "title": "",
-      "variations": {
-        "type": "Accordion",
-        "data": [
-          {
-            "category": "19G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "38",
-                "thread": "50",
-                "usp": "2"
-              },
-              {
-                "id": "1",
-                "needle": "50",
-                "thread": "70",
-                "usp": "2"
-              },
-              {
-                "id": "1",
-                "needle": "60",
-                "thread": "80",
-                "usp": "2"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "COG Type 3D W needl",
+      "title": "COG Type 3D W needle",
+      "images": {
+        "sub": "",
+        "main": ""
+      },
       "package": "10pcsx2bags/pack",
-      "description": "",
-      "effect": "With two-ways 360 ° rotating serrated, effectively lift the facial sagging soft tissue; lift body parts, such as the breasts, buttocks, shaping the body lines",
-      "images": {
-        "main": "",
-        "sub": ""
-      },
       "subtitle": "",
+      "accordion": [
+        {
+          "icon": "i-heroicons-information-circle",
+          "label": "Getting Started",
+          "content": "Lorem ipsum ",
+          "defaultOpen": true
+        },
+        {
+          "icon": "i-heroicons-eye-dropper",
+          "label": "Effect",
+          "content": "With two-ways 360 ° rotating serrated, effectively lift the facial sagging soft tissue; lift body parts, such as the breasts, buttocks, shaping the body lines"
+        },
+        {
+          "icon": "i-heroicons-square-3-stack-3d",
+          "label": "Package",
+          "content": "10pcsx2bags/pack"
+        },
+        {
+          "icon": "i-heroicons-wrench-screwdriver",
+          "slot": "Specifications",
+          "label": "Specifications"
+        }
+      ],
+      "description": "",
+      "specification_accordion": {
+        "data": [
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "2",
+                  "needle": "100",
+                  "thread": "150"
+                },
+                {
+                  "id": "1",
+                  "usp": "2",
+                  "needle": "120",
+                  "thread": "180"
+                }
+              ],
+              "category": "gauge_18G"
+            },
+            "icon": "i-heroicons-information-circle",
+            "label": "gauge_18G",
+            "defaultOpen": false
+          },
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "1",
+                  "needle": "100",
+                  "thread": "150"
+                },
+                {
+                  "id": "1",
+                  "usp": "1",
+                  "needle": "120",
+                  "thread": "180"
+                }
+              ],
+              "category": "gauge_19G"
+            },
+            "icon": "i-heroicons-arrow-down-tray",
+            "label": "gauge_19G",
+            "defaultOpen": false
+          },
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "2/0",
+                  "needle": "90",
+                  "thread": "140"
+                },
+                {
+                  "id": "1",
+                  "usp": "2/0",
+                  "needle": "100",
+                  "thread": "150"
+                }
+              ],
+              "category": "gauge_21G"
+            },
+            "icon": "i-heroicons-arrow-down-tray",
+            "label": "gauge_21G",
+            "defaultOpen": false
+          }
+        ],
+        "columns": [
+          {
+            "key": "needle",
+            "label": "Nength"
+          },
+          {
+            "key": "thread",
+            "label": "Thread"
+          },
+          {
+            "key": "usp",
+            "label": "USP"
+          }
+        ]
+      }
+    },
+    {
       "tags": [
         {
           "id": "",
@@ -682,74 +1059,79 @@
           "name": ""
         }
       ],
-      "title": "",
-      "variations": {
-        "type": "Accordion",
-        "data": [
-          {
-            "category": "18G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "100",
-                "thread": "150",
-                "usp": "2"
-              },
-              {
-                "id": "1",
-                "needle": "120",
-                "thread": "180",
-                "usp": "2"
-              }
-            ]
-          },
-          {
-            "category": "19G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "100",
-                "thread": "150",
-                "usp": "1"
-              },
-              {
-                "id": "1",
-                "needle": "120",
-                "thread": "180",
-                "usp": "1"
-              }
-            ]
-          },
-          {
-            "category": "21G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "90",
-                "thread": "140",
-                "usp": "2/0"
-              },
-              {
-                "id": "1",
-                "needle": "100",
-                "thread": "150",
-                "usp": "2/0"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "BLUNT NEEDLE (for eye)",
+      "title": "COG Type 3D L needle",
+      "images": {
+        "sub": "",
+        "main": ""
+      },
       "package": "10pcsx2bags/pack",
-      "description": "",
-      "effect": "Removal of eye bags, fat, eyelid skin flabby and wrinkles",
-      "images": {
-        "main": "",
-        "sub": ""
-      },
       "subtitle": "",
+      "accordion": [
+        {
+          "icon": "i-heroicons-information-circle",
+          "label": "Getting Started",
+          "content": "Lorem ipsum ",
+          "defaultOpen": true
+        },
+        {
+          "icon": "i-heroicons-eye-dropper",
+          "label": "Effect",
+          "content": "Mainly used for raising eyebrows. Perfect thickness and length, without scars"
+        },
+        {
+          "icon": "i-heroicons-square-3-stack-3d",
+          "label": "Package",
+          "content": "10pcsx2bags/pack"
+        },
+        {
+          "icon": "i-heroicons-wrench-screwdriver",
+          "slot": "Specifications",
+          "label": "Specifications"
+        }
+      ],
+      "description": "",
+      "specification_accordion": {
+        "data": [
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "",
+                  "needle": "60",
+                  "thread": "210"
+                },
+                {
+                  "id": "1",
+                  "usp": "",
+                  "needle": "60",
+                  "thread": "130"
+                }
+              ],
+              "category": "gauge_21G"
+            },
+            "icon": "i-heroicons-information-circle",
+            "label": "gauge_21G",
+            "defaultOpen": false
+          }
+        ],
+        "columns": [
+          {
+            "key": "needle",
+            "label": "Nength"
+          },
+          {
+            "key": "thread",
+            "label": "Thread"
+          },
+          {
+            "key": "usp",
+            "label": "USP"
+          }
+        ]
+      }
+    },
+    {
       "tags": [
         {
           "id": "",
@@ -760,101 +1142,79 @@
           "name": ""
         }
       ],
-      "title": "",
-      "variations": {
-        "type": "Accordion",
-        "data": [
-          {
-            "category": "30G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "25",
-                "thread": "30",
-                "usp": "6/0"
-              },
-              {
-                "id": "1",
-                "needle": "38",
-                "thread": "50",
-                "usp": "6/0"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "Multi Threads L needle",
+      "title": "BLUNT NEEDLE (for eye)",
+      "images": {
+        "sub": "",
+        "main": ""
+      },
       "package": "10pcsx2bags/pack",
-      "description": "",
-      "effect": "Easy to operate; Filling small sags, such as: the fine lines around the eyes, forehead wrinkles, plain word wrinkles, horizontal wrinkles in forehead, neck lines etc; Insert multiple lines into the tissues at a time; a substitute for hyaluronic acid.",
-      "images": {
-        "main": "",
-        "sub": ""
-      },
       "subtitle": "",
-      "tags": [
+      "accordion": [
         {
-          "id": "",
-          "name": ""
+          "icon": "i-heroicons-information-circle",
+          "label": "Getting Started",
+          "content": "Lorem ipsum ",
+          "defaultOpen": true
         },
         {
-          "id": "",
-          "name": ""
+          "icon": "i-heroicons-eye-dropper",
+          "label": "Effect",
+          "content": "Removal of eye bags, fat, eyelid skin flabby and wrinkles"
+        },
+        {
+          "icon": "i-heroicons-square-3-stack-3d",
+          "label": "Package",
+          "content": "10pcsx2bags/pack"
+        },
+        {
+          "icon": "i-heroicons-wrench-screwdriver",
+          "slot": "Specifications",
+          "label": "Specifications"
         }
       ],
-      "title": "",
-      "variations": {
-        "type": "Accordion",
+      "description": "",
+      "specification_accordion": {
         "data": [
           {
-            "category": "21G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "38",
-                "thread": "50",
-                "usp": "5/0x10"
-              },
-              {
-                "id": "1",
-                "needle": "60",
-                "thread": "80",
-                "usp": "5/0x10"
-              }
-            ]
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "6/0",
+                  "needle": "25",
+                  "thread": "30"
+                },
+                {
+                  "id": "1",
+                  "usp": "6/0",
+                  "needle": "38",
+                  "thread": "50"
+                }
+              ],
+              "category": "gauge_30G"
+            },
+            "icon": "i-heroicons-information-circle",
+            "label": "gauge_30G",
+            "defaultOpen": false
+          }
+        ],
+        "columns": [
+          {
+            "key": "needle",
+            "label": "Nength"
           },
           {
-            "category": "23G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "38",
-                "thread": "50",
-                "usp": "5/0x7"
-              },
-              {
-                "id": "1",
-                "needle": "60",
-                "thread": "80",
-                "usp": "5/0x7"
-              }
-            ]
+            "key": "thread",
+            "label": "Thread"
+          },
+          {
+            "key": "usp",
+            "label": "USP"
           }
         ]
       }
     },
     {
-      "name": "VSORB",
-      "package": "1pc/pack",
-      "description": "",
-      "effect": "VSORB can beautify the eyebrow, remove wrinkles, and make the eyes bigger. Correct the infold double eyelid, triangular eyes or unsatisfatory forehead lifting. VSORB can remove the extra fat of the natural puffy eyes to avaoid the second pain of the double eyelid surg",
-      "images": {
-        "main": "",
-        "sub": ""
-      },
-      "subtitle": "",
       "tags": [
         {
           "id": "",
@@ -865,57 +1225,101 @@
           "name": ""
         }
       ],
-      "title": "",
-      "variations": {
-        "type": "Accordion",
+      "title": "Multi Threads L needle",
+      "images": {
+        "sub": "",
+        "main": ""
+      },
+      "package": "10pcsx2bags/pack",
+      "subtitle": "",
+      "accordion": [
+        {
+          "icon": "i-heroicons-information-circle",
+          "label": "Getting Started",
+          "content": "Lorem ipsum ",
+          "defaultOpen": true
+        },
+        {
+          "icon": "i-heroicons-eye-dropper",
+          "label": "Effect",
+          "content": "Easy to operate; Filling small sags, such as: the fine lines around the eyes, forehead wrinkles, plain word wrinkles, horizontal wrinkles in forehead, neck lines etc; Insert multiple lines into the tissues at a time; a substitute for hyaluronic acid."
+        },
+        {
+          "icon": "i-heroicons-square-3-stack-3d",
+          "label": "Package",
+          "content": "10pcsx2bags/pack"
+        },
+        {
+          "icon": "i-heroicons-wrench-screwdriver",
+          "slot": "Specifications",
+          "label": "Specifications"
+        }
+      ],
+      "description": "",
+      "specification_accordion": {
         "data": [
           {
-            "category": "18G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "110",
-                "thread": "290",
-                "usp": "2"
-              },
-              {
-                "id": "1",
-                "needle": "110",
-                "thread": "440",
-                "usp": "2"
-              }
-            ]
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "5/0x10",
+                  "needle": "38",
+                  "thread": "50"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0x10",
+                  "needle": "60",
+                  "thread": "80"
+                }
+              ],
+              "category": "gauge_21G"
+            },
+            "icon": "i-heroicons-information-circle",
+            "label": "gauge_21G",
+            "defaultOpen": false
           },
           {
-            "category": "21G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "110",
-                "thread": "290",
-                "usp": "2/0"
-              },
-              {
-                "id": "1",
-                "needle": "110",
-                "thread": "440",
-                "usp": "2/0"
-              }
-            ]
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "5/0x7",
+                  "needle": "38",
+                  "thread": "50"
+                },
+                {
+                  "id": "1",
+                  "usp": "5/0x7",
+                  "needle": "60",
+                  "thread": "80"
+                }
+              ],
+              "category": "gauge_23G"
+            },
+            "icon": "i-heroicons-arrow-down-tray",
+            "label": "gauge_23G",
+            "defaultOpen": false
+          }
+        ],
+        "columns": [
+          {
+            "key": "needle",
+            "label": "Nength"
+          },
+          {
+            "key": "thread",
+            "label": "Thread"
+          },
+          {
+            "key": "usp",
+            "label": "USP"
           }
         ]
       }
     },
     {
-      "name": "Molding Cog W needl",
-      "package": "2pcsx10bags/pack",
-      "description": "",
-      "effect": "Maximum retention reriod tensile strength up, maintenance Up No-heat treatment Unique 3D press method using special blade (One-piece cog). At least 1.5X Number of Cogs. Hooking the muscles with a denser, sharper cogs. Best regeneration effect in the connective tissue. Maintaining facial volume for long periods",
-      "images": {
-        "main": "",
-        "sub": ""
-      },
-      "subtitle": "",
       "tags": [
         {
           "id": "",
@@ -926,53 +1330,221 @@
           "name": ""
         }
       ],
-      "title": "",
-      "variations": {
-        "type": "Accordion",
+      "title": "VSORB",
+      "images": {
+        "sub": "",
+        "main": ""
+      },
+      "package": "10pcsx2bags/pack",
+      "subtitle": "",
+      "accordion": [
+        {
+          "icon": "i-heroicons-information-circle",
+          "label": "Getting Started",
+          "content": "Lorem ipsum ",
+          "defaultOpen": true
+        },
+        {
+          "icon": "i-heroicons-eye-dropper",
+          "label": "Effect",
+          "content": "VSORB can beautify the eyebrow, remove wrinkles, and make the eyes bigger. Correct the infold double eyelid, triangular eyes or unsatisfatory forehead lifting. VSORB can remove the extra fat of the natural puffy eyes to avaoid the second pain of the double eyelid surg"
+        },
+        {
+          "icon": "i-heroicons-square-3-stack-3d",
+          "label": "Package",
+          "content": "10pcsx2bags/pack"
+        },
+        {
+          "icon": "i-heroicons-wrench-screwdriver",
+          "slot": "Specifications",
+          "label": "Specifications"
+        }
+      ],
+      "description": "",
+      "specification_accordion": {
         "data": [
           {
-            "category": "18G",
-            "items": [
-              {
-                "id": "1",
-                "needle": "100",
-                "thread": "155/170",
-                "usp": "2"
-              }
-            ]
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "2",
+                  "needle": "110",
+                  "thread": "290"
+                },
+                {
+                  "id": "1",
+                  "usp": "2",
+                  "needle": "110",
+                  "thread": "440"
+                }
+              ],
+              "category": "gauge_18G"
+            },
+            "icon": "i-heroicons-information-circle",
+            "label": "gauge_18G",
+            "defaultOpen": false
           },
           {
-            "category": "18G(Self)",
-            "items": [
-              {
-                "id": "1",
-                "needle": "100",
-                "thread": "155/170",
-                "usp": "3"
-              }
-            ]
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "2/0",
+                  "needle": "110",
+                  "thread": "290"
+                },
+                {
+                  "id": "1",
+                  "usp": "2/0",
+                  "needle": "110",
+                  "thread": "440"
+                }
+              ],
+              "category": "gauge_21G"
+            },
+            "icon": "i-heroicons-arrow-down-tray",
+            "label": "gauge_21G",
+            "defaultOpen": false
+          }
+        ],
+        "columns": [
+          {
+            "key": "needle",
+            "label": "Nength"
           },
           {
-            "category": "18G(Fish Bone)",
-            "items": [
-              {
-                "id": "1",
-                "needle": "100",
-                "thread": "155/170",
-                "usp": "2"
-              }
-            ]
+            "key": "thread",
+            "label": "Thread"
           },
           {
-            "category": "18G(Self Anchoring Type)",
-            "items": [
-              {
-                "id": "1",
-                "needle": "100",
-                "thread": "155/170",
-                "usp": "3"
-              }
-            ]
+            "key": "usp",
+            "label": "USP"
+          }
+        ]
+      }
+    },
+    {
+      "tags": [
+        {
+          "id": "",
+          "name": ""
+        },
+        {
+          "id": "",
+          "name": ""
+        }
+      ],
+      "title": "Molding Cog W needle",
+      "images": {
+        "sub": "",
+        "main": ""
+      },
+      "package": "10pcsx2bags/pack",
+      "subtitle": "",
+      "accordion": [
+        {
+          "icon": "i-heroicons-information-circle",
+          "label": "Getting Started",
+          "content": "Lorem ipsum ",
+          "defaultOpen": true
+        },
+        {
+          "icon": "i-heroicons-eye-dropper",
+          "label": "Effect",
+          "content": "Maximum retention reriod tensile strength up, maintenance Up No-heat treatment Unique 3D press method using special blade (One-piece cog). At least 1.5X Number of Cogs. Hooking the muscles with a denser, sharper cogs. Best regeneration effect in the connective tissue. Maintaining facial volume for long periods"
+        },
+        {
+          "icon": "i-heroicons-square-3-stack-3d",
+          "label": "Package",
+          "content": "10pcsx2bags/pack"
+        },
+        {
+          "icon": "i-heroicons-wrench-screwdriver",
+          "slot": "Specifications",
+          "label": "Specifications"
+        }
+      ],
+      "description": "",
+      "specification_accordion": {
+        "data": [
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "2",
+                  "needle": "100",
+                  "thread": "155/170"
+                }
+              ],
+              "category": "gauge_18G"
+            },
+            "icon": "i-heroicons-information-circle",
+            "label": "gauge_18G",
+            "defaultOpen": false
+          },
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "2",
+                  "needle": "100",
+                  "thread": "155/170"
+                }
+              ],
+              "category": "18G(Self)"
+            },
+            "icon": "i-heroicons-arrow-down-tray",
+            "label": "18G(Self)",
+            "defaultOpen": false
+          },
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "2",
+                  "needle": "100",
+                  "thread": "155/170"
+                }
+              ],
+              "category": "18G(Fish Bone)"
+            },
+            "icon": "i-heroicons-arrow-down-tray",
+            "label": "18G(Fish Bone)",
+            "defaultOpen": false
+          },
+          {
+            "data": {
+              "items": [
+                {
+                  "id": "1",
+                  "usp": "3",
+                  "needle": "100",
+                  "thread": "155/170"
+                }
+              ],
+              "category": "18G(Self Anchoring Type)"
+            },
+            "icon": "i-heroicons-arrow-down-tray",
+            "label": "18G(Self Anchoring Type)",
+            "defaultOpen": false
+          }
+        ],
+        "columns": [
+          {
+            "key": "needle",
+            "label": "Nength"
+          },
+          {
+            "key": "thread",
+            "label": "Thread"
+          },
+          {
+            "key": "usp",
+            "label": "USP"
           }
         ]
       }
